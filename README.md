@@ -54,7 +54,7 @@ Security Note: Never share your .env file or commit it to a public repository.
 
 ## Run the Bot:
 ```bash
-./npm main.js
+npm main.js
 ```
 
 
