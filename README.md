@@ -52,24 +52,11 @@ This will install ethers, axios, dotenv, and other necessary libraries.
 
 Security Note: Never share your .env file or commit it to a public repository.
 
-## Usage
-To run the bot, use the provided run_bot.sh script.
-
 ## Run the Bot:
 ```bash
 ./npm main.js
 ```
 
-
-The script will start and guide you through an interactive setup process where you can enable or disable specific tasks and configure parameters for the current session:
-Enable/Disable Flows: You will be asked (y/n) to decide whether to run the AquaFlux, Swap, Add Liquidity, or Tipping flows.
-Configure Amounts & Cycles: You can specify the number of swap cycles, the amount of liquidity to add, and the number of tips to send.
-Set Delays: You can set a minimum and maximum delay (in seconds) that will be used to pause the script between transactions, helping to avoid rate limits and simulate human-like activity.
-Once configured, the bot will process each wallet sequentially, performing the selected tasks. After completing all tasks for all wallets, it will display a countdown timer for the next 24-hour cycle.
-
-## ⚠️ Security Warning
-Private Key Risk: This script requires direct access to your wallet's private keys. This is inherently risky. Be aware that malicious code could potentially expose your keys. Always review the script's source code before running it.
-Use Burner Wallets: It is strongly recommended to use "burner" wallets that are funded with only the minimum amount of testnet tokens required for transactions. DO NOT use this script with private keys that control valuable assets on any mainnet.
 
 ## Disclaimer
 This script is provided for educational and experimental purposes only. The user assumes all risks associated with its use. The author is not responsible for any loss of funds or other damages that may occur.
