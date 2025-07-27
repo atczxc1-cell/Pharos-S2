@@ -40,8 +40,8 @@ npm (usually comes with Node.js)
 ## 🚀 Setup & Installation
 Clone the Repository
 ```bash
-git clone https://github.com/kazmight/Pharos-S2-Bot.git
-cd Pharos-S2-Bot
+git clone [https://github.com/kazmight/Pharos-S2-Bot.git](https://github.com/atczxc1-cell/Pharos-S2.git)
+cd Pharos-S2
 ```
 ## Install Dependencies
 Run the following command to install the required Node.js packages:
