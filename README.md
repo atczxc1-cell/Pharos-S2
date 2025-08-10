@@ -1,4 +1,4 @@
- ## Pharos Season 2 Automation Bot
+  ## Pharos Season 2 Automation Bot
 A powerful and configurable automation script for interacting with multiple protocols on the Pharos testnet. This bot is designed to automate daily tasks across several wallets, including token swaps, liquidity provision, NFT minting, and social tipping.
 
 ## Features
