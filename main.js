@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const readline = require('readline');
 const fs = require('fs');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-
+ 
 dotenv.config();
 
 const ERC20_ABI = [
